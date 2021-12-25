@@ -20,7 +20,6 @@
     "rules": {
         "react/function-component-definition": [
             2, { "namedComponents": "function-declaration" }
-        ],
-        "react/prop-types": ["error", { "ignore": ["navigation"] }]
+        ]
     }
 }

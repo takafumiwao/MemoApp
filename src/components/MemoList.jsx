@@ -45,6 +45,7 @@ export default function MemoList(props) {
 				<TouchableOpacity
 					onPress={() => { Alert.alert("Are you sure?");}}
 					style={styles.memoDelete}
+					// eslint-disable-next-line react/jsx-no-duplicate-props
 					onPress={() => { deleteMemo(item.id);}}
 				>
 					<Icon name="delete" size={24} color="#B0B0B0"/>

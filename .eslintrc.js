@@ -32,6 +32,7 @@ module.exports = {
 		"semi": [
 			"error",
 			"always"
-		]
+		],
+		"react/prop-types": [1, { "ignore": ["navigation"] }],
 	}
 };
